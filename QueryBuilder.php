@@ -76,13 +76,4 @@
         }
 
     }
-
-        $id = 0;
-
-        $db = new SQLBUILDER();
-            $sqli = $db
-                ->insert('users', ['name' => 'Maxime', 'age' => '20'])
-                ->sql();
-
-        echo $sqli;
 ?>
