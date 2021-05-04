@@ -33,6 +33,7 @@
             $this->sql['or'] = " OR {$or}";
             return $this;
         }
+        
 
         public function groupby($groupby)
         {
